@@ -638,9 +638,9 @@ color: white
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
+    pointer-events: none;
 }
 
 .is-open {
