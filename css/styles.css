@@ -655,17 +655,18 @@ margin-left: 16px;
 }
 
 .md-container{
-position: absolute;
-width: 408px;
-min-height: 584px;
-background: #fcfcfc;
-border-radius: 4px;
-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-top:50%;
-left:50%;
-transform: translate(-50%, -50%);
-padding: 72px 24px 24px 24px;;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    width: 408px;
+    min-height: 584px;
+    background: #fcfcfc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 72px 24px 24px 24px;
+    ;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .md-btn-close {
@@ -737,7 +738,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .md-field-wrap svg{
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .md-input {
@@ -817,7 +818,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 .span-check-box{
     display: inline-flex;
-    margin-bottom: 16px
+    
 }
 
 .privacy-link {
