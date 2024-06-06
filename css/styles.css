@@ -671,7 +671,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .md-btn-close {
     display: flex;
     border-radius: 50%;
-    fill: #e7e9fc;
+    fill: #2e2f42;
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 24px;
     height: 24px;
@@ -685,20 +685,17 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-
-.icon-close{
-    fill: #2e2f42;
+.md-btn-close svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-close{
+   
 }
 .md-btn-close:focus,
 .md-btn-close:hover {
     background-color: #404bbf;
     border: none;
-}
-.icon-close:focus,
-.icon-close:hover {
-    fill:white;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: white;
 }
 
 .md-title {
@@ -735,6 +732,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
 
+.md-field-wrap svg{
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
 .md-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -755,6 +756,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .md-input:focus +.md-icon {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #4d5ae5;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .md-icon {
@@ -809,8 +811,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
 }
 
-.policy-check-box{
+.span-check-box{
     display: inline-flex;
+    margin-bottom: 16px
 }
 
 .privacy-link {
