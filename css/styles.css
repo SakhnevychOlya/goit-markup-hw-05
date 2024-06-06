@@ -763,9 +763,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
-    
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);       
 }
 
 .md-text {
@@ -811,10 +809,13 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 16px;    
     height:16px;
     margin-right: 8px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -822,6 +823,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 2px;
     background-color: #404bbf;
     border: 1px solid #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .policy-line{
@@ -833,7 +836,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: white;
